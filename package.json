@@ -1,0 +1,20 @@
+{
+  "name": "geteventstore-client",
+  "version": "0.1.0",
+  "description": "Basic client for talking to GetEventStore using the AtomPub over HTTP interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geteventstore",
+    "ges"
+  ],
+  "author": "Colm Harte <colm.harte@nearform.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "node-uuid": "^1.4.3",
+    "wreck": "^5.5.1"
+  }
+}
