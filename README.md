@@ -1,6 +1,6 @@
 # geteventstore-client
 
-### Basic client for talking to GetEventStore using the AtomPub interface over HTTP
+### Client for talking to GetEventStore using the AtomPub interface over HTTP
 
 ### Support
 
