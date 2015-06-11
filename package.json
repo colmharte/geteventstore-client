@@ -1,6 +1,6 @@
 {
   "name": "geteventstore-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic client for talking to GetEventStore using the AtomPub over HTTP interface",
   "main": "index.js",
   "scripts": {
@@ -19,11 +19,6 @@
   "bugs": {
     "url": "https://github.com/colmharte/geteventstore-client/issues"
   },
-  "files": [
-    "LICENSE.txt",
-    "README.md",
-    "index"
-  ],
   "homepage": "https://github.com/colmharte/seneca-cockroach-store",
   "dependencies": {
     "lodash": "^3.9.3",
