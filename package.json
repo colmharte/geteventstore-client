@@ -4,7 +4,11 @@
   "description": "Basic client for talking to GetEventStore using the AtomPub over HTTP interface",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colmharte/geteventstore-client.git"
   },
   "keywords": [
     "geteventstore",
@@ -12,9 +16,22 @@
   ],
   "author": "Colm Harte <colm.harte@nearform.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colmharte/geteventstore-client/issues"
+  },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "index"
+  ],
+  "homepage": "https://github.com/colmharte/seneca-cockroach-store",
   "dependencies": {
     "lodash": "^3.9.3",
     "node-uuid": "^1.4.3",
     "wreck": "^5.5.1"
+  },
+  "devDependencies": {
+    "lab": "5.x.x",
+    "code": "1.x.x"
   }
 }
