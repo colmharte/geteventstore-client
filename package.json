@@ -1,7 +1,7 @@
 {
   "name": "geteventstore-client",
-  "version": "0.1.1",
-  "description": "Basic client for talking to GetEventStore using the AtomPub over HTTP interface",
+  "version": "0.1.2",
+  "description": "Client for talking to GetEventStore using the AtomPub over HTTP interface",
   "main": "index.js",
   "scripts": {
     "test": "lab  "
