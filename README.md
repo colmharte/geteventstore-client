@@ -83,7 +83,7 @@ Reads the next newest item from the current position. The starting position can 
     - `err` - Any error that may have occurred during the handling of the request.
     - `data` - The object stored at the the position.
 
-### `client.readLast(streamName, callback)`
+### `client.readNext(streamName, callback)`
 
 Reads the previous older item from the current position. The starting position can be set by calling readFirst or readLast.
 - `streamName` - A string specifying the stream name.
